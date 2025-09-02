@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Brizon Travels</title>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">Luxury Brizon Travels</div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#europa">Europa</a>
+    <a href="#asia">Asia</a>
+    <a href="#america">América</a>
+    <a href="#africa">África</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <div class="language-selector">
+    <button data-lang="es">ES</button>
+    <button data-lang="en">EN</button>
+    <button data-lang="fr">FR</button>
+    <button data-lang="de">DE</button>
+  </div>
+</header>
+
+<!-- Hero -->
+<section id="inicio" class="hero">
+  <video autoplay muted loop class="hero-video">
+    <source src="https://cdn.coverr.co/videos/coverr-sailing-on-the-sea-5130/1080p.mp4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title">Bienvenido a Luxury Brizon Travels</h1>
+    <p class="hero-subtitle">Experiencias de lujo y exclusividad nunca antes vistas</p>
+    <a href="#europa" class="btn">Descubre nuestros viajes</a>
+  </div>
+</section>
+
+<!-- Europa -->
+<section id="europa">
+  <h2>Europa</h2>
+  <div class="swiper-container europa-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34" alt="París">
+        <h3>París de Lujo</h3>
+        <p>7 días con visitas privadas y cenas gourmet</p>
+        <p class="price">5757.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c" alt="Roma">
+        <h3>Roma Exclusiva</h3>
+        <p>6 días con tour privado y hotel 5 estrellas</p>
+        <p class="price">4529.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+    </div>
+    <div class="swiper-button-next europa-next"></div>
+    <div class="swiper-button-prev europa-prev"></div>
+  </div>
+</section>
+
+<!-- Asia -->
+<section id="asia">
+  <h2>Asia</h2>
+  <div class="swiper-container asia-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1549693578-d683be217e58" alt="Japón">
+        <h3>Maravillas de Japón</h3>
+        <p>10 días con visitas culturales y gastronomía</p>
+        <p class="price">5179.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1519821172141-b9d2da46f84d" alt="Tailandia">
+        <h3>Tailandia & Malasia</h3>
+        <p>10 días con tours y playas exclusivas</p>
+        <p class="price">3679.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+    </div>
+    <div class="swiper-button-next asia-next"></div>
+    <div class="swiper-button-prev asia-prev"></div>
+  </div>
+</section>
+
+<!-- América -->
+<section id="america">
+  <h2>América</h2>
+  <div class="swiper-container america-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1508780709619-79562169bc64" alt="Perú">
+        <h3>Aventura en Perú</h3>
+        <p>8 días visitando Machu Picchu y Cusco</p>
+        <p class="price">4029.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1526779259212-5e3c49cddf0b" alt="Costa Rica">
+        <h3>Costa Rica Aventura</h3>
+        <p>10 días con eco-lodges y actividades extremas</p>
+        <p class="price">3449.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+    </div>
+    <div class="swiper-button-next america-next"></div>
+    <div class="swiper-button-prev america-prev"></div>
+  </div>
+</section>
+
+<!-- África -->
+<section id="africa">
+  <h2>África</h2>
+  <div class="swiper-container africa-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1558961363-fa0a5b8ee2d0" alt="Tanzania">
+        <h3>Safari en Tanzania</h3>
+        <p>7 días con visitas al Serengeti y Ngorongoro</p>
+        <p class="price">5179.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+      <div class="swiper-slide card">
+        <img src="https://images.unsplash.com/photo-1580545041580-2c0e22c5c2f2" alt="Egipto">
+        <h3>Egipto & Crucero por el Nilo</h3>
+        <p>8 días con visitas a pirámides y crucero de lujo</p>
+        <p class="price">4379.00 €</p>
+        <button class="add-to-cart">Reservar</button>
+      </div>
+    </div>
+    <div class="swiper-button-next africa-next"></div>
+    <div class="swiper-button-prev africa-prev"></div>
+  </div>
+</section>
+
+<!-- Carrito -->
+<section id="tienda">
+  <h2>Tu Carrito de Reservas</h2>
+  <div id="cart">
+    <p>El carrito está vacío</p>
+  </div>
+  <div id="paypal-button-container"></div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto">
+  <h2>Contáctanos</h2>
+  <form id="contact-form">
+    <input type="text" name="name" placeholder="Nombre completo" required>
+    <input type="email" name="email" placeholder="Correo electrónico" required>
+    <input type="tel" name="phone" placeholder="Teléfono" required>
+    <textarea name="message" placeholder="Tu mensaje o solicitud de viaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>Contacto: gersonbrizuelapinon@gmail.com | +34 603500843 | Mollet del Valles, Barcelona, España</p>
+  <p>© 2025 Luxury Brizon Travels</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=TU_CLIENT_ID&currency=EUR"></script>
+<script src="script.js"></script>
+</body>
+</html>
